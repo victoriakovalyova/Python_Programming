@@ -24,16 +24,3 @@ with open("dataset_3363_4.txt", "r") as information, open("output.txt", "w") as 
         sum_russian_language += int(_list[3])
         output.write(str(average)+"\n")
     output.write(str(sum_math / counter) + " " + str(sum_physics / counter) + " " + str(sum_russian_language / counter))
-    #dictionary = {}
-    #number = 0
-    #name = ""
-    #for i in _list:
-    #    for j in i:
-    #        if j.isalpha() == True:
-    #            name = j
-    #            dictionary[j]
-    #        else:
-    #            number = j
-    #            dictionary[name] += int(number)
-    #        print(dictionary)
-
